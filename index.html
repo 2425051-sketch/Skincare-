@@ -1,0 +1,115 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GlowCare Skin Hospital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">GlowCare Skin Hospital</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#services">Services</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#appointment">Appointment</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f" class="slide active">
+    <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5" class="slide">
+    <img src="https://images.unsplash.com/photo-1606813909355-6c9b7a2d5e08" class="slide">
+
+    <div class="hero-text">
+        <h1>Healthy Skin, Happy Life</h1>
+        <p>Advanced Dermatology & Cosmetic Care</p>
+        <button onclick="scrollToAppointment()">Book Appointment</button>
+    </div>
+</section>
+
+<!-- Services -->
+<section id="services" class="section services">
+    <h2>Our Services</h2>
+    <div class="service-box">
+        <h3>Acne Treatment</h3>
+        <p>Advanced acne and scar removal solutions.</p>
+    </div>
+    <div class="service-box">
+        <h3>Laser Therapy</h3>
+        <p>Safe and effective laser treatments.</p>
+    </div>
+    <div class="service-box">
+        <h3>Anti-Aging Care</h3>
+        <p>Wrinkle reduction and skin rejuvenation.</p>
+    </div>
+</section>
+
+<!-- Doctors -->
+<section id="doctors" class="section doctors">
+    <h2>Our Specialists</h2>
+    <div class="doctor-card">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg">
+        <h3>Dr. Anjali Rao</h3>
+        <p>Senior Dermatologist</p>
+    </div>
+    <div class="doctor-card">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg">
+        <h3>Dr. Karthik Menon</h3>
+        <p>Laser Specialist</p>
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section class="section testimonials">
+    <h2>What Our Patients Say</h2>
+    <div class="testimonial-box">
+        <p>"Best skincare hospital! My treatment worked perfectly."</p>
+        <h4>- Priya S.</h4>
+    </div>
+</section>
+
+<!-- Stats -->
+<section class="stats">
+    <div>
+        <h2 class="counter" data-target="5000">0</h2>
+        <p>Happy Patients</p>
+    </div>
+    <div>
+        <h2 class="counter" data-target="15">0</h2>
+        <p>Expert Doctors</p>
+    </div>
+</section>
+
+<!-- Appointment -->
+<section id="appointment" class="section">
+    <h2>Book Appointment</h2>
+    <form id="appointmentForm">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="date" required>
+        <textarea placeholder="Describe your concern"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: info@glowcare.com</p>
+    <p>Phone: +91 98765 43210</p>
+    <p>Location: Chennai, India</p>
+</section>
+
+<a href="https://wa.me/919876543210" class="whatsapp" target="_blank">💬</a>
+
+<footer>
+    <p>© 2026 GlowCare Skin Hospital. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
